@@ -56,13 +56,13 @@ collections:
   others:
     output: true
     permalink: /:collection/:path/
-  页面:
+  expand:
     output: true
     permalink: /:collection/:path/
 
 ordered_collections:
   - posts
-  - 页面
+  - expand
   - pages
   - others
 
